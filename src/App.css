@@ -1,0 +1,50 @@
+body.light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+body.dark {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.app {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin-left: 10px;
+}
+
+.card {
+  margin-bottom: 15px;
+}
+
+.table th {
+  cursor: pointer;
+}
+
+.table th.ascending::after {
+  content: " ▲";
+}
+
+.table th.descending::after {
+  content: " ▼";
+}
+header .btn {
+  white-space: nowrap;
+}
+.dark .task-list {
+  color: #000;
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 100%;
+    }
+}
